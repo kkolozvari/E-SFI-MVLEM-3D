@@ -12,7 +12,7 @@ The E-SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element wi
 ![Model_Formulation: General](https://user-images.githubusercontent.com/53920372/110258567-14569400-7f58-11eb-9e57-f367640ed881.JPG)<br/>
 **Figure 1: E-SFI-MVLEM-3D Element Formulation**
 
-![Model_Formulation: In-plane behavior](https://user-images.githubusercontent.com/53920372/110258567-14569400-7f58-11eb-9e57-f367640ed881.JPG)<br/>
+![Fig 2](https://github.com/kkolozvari/E-SFI-MVLEM-3D/assets/53920372/93814a7d-8610-47fa-823f-dbd9e790f80f)<br/>
 **Figure 2: E-SFI-MVLEM-3D Element Formulation: In-plane behavior**
 
 ### E-SFI-MVLEM-3D Input
@@ -49,18 +49,18 @@ The following recorders are available with the SFI-MVLEM-3D element.
 
 Specimens SD-06-00/45 (Habasaki et el., 1999) is analyzed using the E-SFI-MVLEM-3D. Figure 3 shows the E-SFI-MVLEM-3D model of specimens SD-06-00/45.
 
-![TUC_Model2](https://user-images.githubusercontent.com/53920372/110258396-47e4ee80-7f57-11eb-9a7c-bc179c2eba76.jpg)<br/>
-**Figure 3: SFI-MVLEM-3D Model of specimens SD-06-00/45**
+![Fig 3](https://github.com/kkolozvari/E-SFI-MVLEM-3D/assets/53920372/9f126778-4bc1-4ed6-ac82-537ba32fc477)<br/>
+**Figure 3: E-SFI-MVLEM-3D Model of specimens SD-06-00/45**
 
 Figure 4 shows the comparison of experimental and analytical load-deformation responses of specimens SD-06-00 and SD-06-45 obtained using the proposed E-SFI-MVLEM-3D element. Figure 4a illustrates that the E-SFI-MVLEM-3D model can predict with very good accuracy the initial stiffness of the specimen as well as its stiffness under cyclic loading. Peak lateral strength is underestimated by approximately 5%, while the pinched shape of hysteretic loops, specific for shear-dominated wall behavior, is well-predicted by the model. Figure 4b further demonstrates that the proposed E-SFI-MVLEM-3D can accurately capture the behavior of the squat nonplanar walls under cyclic loading even in a direction that is not parallel to the specimen principal axes (specimen SD-06-45). Stiffness, although slightly overestimated, is predicted well, as well as the overall characteristics of the specimen hysteretic behavior (e.g., pinching, reloading/unloading stiffness). The lateral load capacity of the specimen is also well-predicted by the model and is within 5% of the experimentally measured value. For both specimens, the strength in the proposed model is controlled by large tensile diagonal strains at the bottom of the specimen, where all vertical bars are yielding, associated with shear failure. Results presented in Figure 4 demonstrate that the proposed modeling approach is suitable for simulation of the behavior of nonplanar, shear-dominated wall specimens as its formulation allows the prediction of nonlinear shear formulations in a mechanical manner. 
 
-![TUC_LD2](https://user-images.githubusercontent.com/53920372/110265126-b8980500-7f6f-11eb-9242-552fc31e1eec.jpg)<br/>
-**Figure 4: Experimental vs. SFI-MVLEM-3D load-deformation response of specimen TUC**
+![Fig 3](https://github.com/kkolozvari/E-SFI-MVLEM-3D/assets/53920372/9f126778-4bc1-4ed6-ac82-537ba32fc477)<br/>
+**Figure 4: Experimental vs. E-SFI-MVLEM-3D load-deformation responses**
 
 Finally, Figure 5 compares the contributions of shear deformations at various deformation levels obtained from the analysis of the two considered specimens against the contributions recorded during the experiment. Experimental shear deformations are obtained using data measured with diagonal sensors, while analytical shear deformations are calculated as cumulative (over the height of the wall specimen) shear deformations recorded at a height of c×h (Figure 3a) of each element. Note that shear deformations at 45° for specimen SD-06-45 were obtained in the model by projecting the shear deformations (the sum of the shear deformations over the height) of two orthogonal faces of the wall specimen. Per Habasaki et al. (1999), contributions of shear deformations to the total lateral displacement of the specimens were between 80-85% for both specimens. As can be observed from Figure 12, analytically predicted contributions of shear deformations generally vary between 80% and 90%, with average contribution across all displacement levels of 83.5% and 85.0% for specimen SD-06-00 and SD-06-45, respectively, which is in excellent agreement with experimental data. This observation suggests that the formulation of the E-SFI-MVLEM-3D can capture with very good accuracy nonlinear shear deformations in nonplanar walls under cyclic loading.
 
-![TUB_cracks_1](https://user-images.githubusercontent.com/53920372/112706048-e7aee180-8e5e-11eb-8f80-8eeb8b91d6f2.gif)<br/>
-**Figure 5: Crack propagation for specimen TUC predicted using the SFI-MVLEM-3D**
+![Fig 4](https://github.com/kkolozvari/E-SFI-MVLEM-3D/assets/53920372/0364b0ae-a6fd-454a-90f5-efc8a5a23cc1)<br/>
+**Figure 5: Contributions of shear deformations to total lateral displacements for specimen**
 
 ## References
 Kristijan Kolozvari, Carlos N. López, Leonardo M. Massone (2023), "Efficient Three-dimensional Shear-flexure Interaction Model for Reinforced Concrete Walls", Engineering Structures, xx, xxxxxx. [link](https://www.sciencedirect.com/science/article/pii/S2352710221008044)
