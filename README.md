@@ -7,7 +7,7 @@ L. M. Massone, University of Chile, Santiago<br/>
 
 ## Description
 
-The E-SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with 24 DOFs that incorporates axial-flexural-shear interaction and can be used for nonlinear analysis of non-rectangular reinforced concrete walls subjected to multidirectional loading. The E-SFI-MVLEM-3D model is derived by combining two previously available models, a two-dimensional ([E-SFI](https://github.com/carloslopezolea/E-SFI_Documentation)) model, and a three-dimensional ([SFI-MVLEM-3D](https://kkolozvari.github.io/SFI-MVLEM-3D/)) model. The major enhancement in the model formulation compared to its parent SFI-MVLEM-3D comes from implementing a closed-form solution for calculating horizontal axial strains at fibers of the wall element. This significantly reduced the number of element degrees of freedom, which resulted in analysis run-time that is reduced to approximately 25% and a convergence rate that is increased roughly two times (Figure 2).
+The E-SFI-MVLEM-3D model (Kolozvari et al, 2023; Figure 1a) is a three-dimensional four-node element with 24 DOFs that incorporates axial-flexural-shear interaction and can be used for nonlinear analysis of non-rectangular reinforced concrete walls subjected to multidirectional loading. The E-SFI-MVLEM-3D model is derived by combining two previously available models, a two-dimensional ([E-SFI](https://github.com/carloslopezolea/E-SFI_Documentation)) model, and a three-dimensional ([SFI-MVLEM-3D](https://kkolozvari.github.io/SFI-MVLEM-3D/)) model. The major enhancement in the model formulation compared to its parent SFI-MVLEM-3D comes from implementing a closed-form solution for calculating horizontal axial strains at fibers of the wall element. This significantly reduced the number of element degrees of freedom, which resulted in analysis run-time that is reduced to approximately 25% and a convergence rate that is increased roughly two times (Figure 2).
 
 ![Model_Formulation: General](https://user-images.githubusercontent.com/53920372/110258567-14569400-7f58-11eb-9e57-f367640ed881.JPG)<br/>
 **Figure 1: E-SFI-MVLEM-3D Element Formulation**
@@ -63,4 +63,5 @@ Finally, Figure 5 compares the contributions of shear deformations at various de
 **Figure 5: Contributions of shear deformations to total lateral displacements for specimen**
 
 ## References
-Kristijan Kolozvari, Carlos N. López, Leonardo M. Massone (2023), "Efficient Three-dimensional Shear-flexure Interaction Model for Reinforced Concrete Walls", Engineering Structures, xx, xxxxxx. [link](https://www.sciencedirect.com/science/article/pii/S2352710221008044)
+Kristijan Kolozvari, Carlos N. López, Leonardo M. Massone (2023), "Efficient Three-dimensional Shear-flexure Interaction Model for Reinforced Concrete Walls", Engineering Structures, xx, xxxxxx. [link](https://www.sciencedirect.com/science/article/pii/S2352710221008044)<br/>
+Habasaki, A., Nishikawa, T., Takiguchi, K., Kitada, Y., & Torita, H., 1999.  Multi-axial loading test for RC wall of reactor building. In: Proceedings of the SMiRT-15, Paper No.H03/3. Seoul, Korea.
