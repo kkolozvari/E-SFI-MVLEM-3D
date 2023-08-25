@@ -63,5 +63,5 @@ Finally, Figure 5 compares the contributions of shear deformations at various de
 **Figure 5: Contributions of shear deformations to total lateral displacements for specimen**
 
 ## References
-Kristijan Kolozvari, Carlos N. López, Leonardo M. Massone (2023), "Efficient Three-dimensional Shear-flexure Interaction Model for Reinforced Concrete Walls", Engineering Structures, 294, 116700. [link](https://doi.org/10.1016/j.engstruct.2023.116700)<br/>
+Kristijan Kolozvari, Carlos N. López, Leonardo M. Massone (2023), "Efficient Three-dimensional Shear-flexure Interaction Model for Reinforced Concrete Walls", Engineering Structures, Vol. 294, 116700. [link](https://doi.org/10.1016/j.engstruct.2023.116700)<br/>
 Habasaki, A., Nishikawa, T., Takiguchi, K., Kitada, Y., & Torita, H., 1999.  Multi-axial loading test for RC wall of reactor building. In: Proceedings of the SMiRT-15, Paper No.H03/3. Seoul, Korea.
